@@ -9,7 +9,7 @@ public class BaiTap2 {
         String studentID;
         String hometown;
         float gpa;
-        String major;
+        String mayjor;
         boolean scholarship;
 
         System.out.print("Nhap ho va ten: ");
@@ -27,7 +27,7 @@ public class BaiTap2 {
         sc.nextLine();
 
         System.out.print("Nhap chuyen nganh: ");
-        major = sc.nextLine();
+        mayjor = sc.nextLine();
 
         System.out.print("Co hoc bong khong? (true/false): ");
         scholarship = sc.nextBoolean();
@@ -37,7 +37,8 @@ public class BaiTap2 {
         System.out.println("Ma sinh vien: " + studentID);
         System.out.println("Que quan: " + hometown);
         System.out.println("GPA: " + gpa);
-        System.out.println("Chuyen nganh: " + major);
+        System.out.println("Chuyen nganh: " + mayjor);
         System.out.println("Hoc bong: " + scholarship);
     }
 }
+
